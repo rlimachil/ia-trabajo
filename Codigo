@@ -1,0 +1,10 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+import numpy as np
+
+# Red neuronal secuencial
+from tensorflow.keras.models import Sequential
+# Capa completamente conectada
+from tensorflow.keras.layers import Dense, Normalization
+# Optimizador
+from tensorflow.keras.optimizers import Adam
